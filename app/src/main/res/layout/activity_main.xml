@@ -10,6 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:text="LOGIN"
         android:textSize="30dp"
         android:fontFamily="serif"
@@ -25,6 +26,7 @@
         android:layout_margin="5dp"
         android:textAlignment="center"/>
     <EditText
+        android:drawableLeft="@drawable/baseline_account_circle_24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -37,6 +39,7 @@
         android:layout_margin="5dp"
         android:textAlignment="center"/>
     <EditText
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
@@ -49,6 +52,6 @@
         android:text="LOGIN"
         android:id="@+id/ls"
         android:layout_margin="10dp"
-        android:background="#8174A0"/>
+        android:background="#D6CFB4"/>
 
 </LinearLayout>
